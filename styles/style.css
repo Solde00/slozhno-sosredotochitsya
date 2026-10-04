@@ -87,7 +87,7 @@
   cursor: pointer;
   background: transparent;
   border: 1px solid transparent;
-  color: var(--accent-color);
+  color: var(--decoration-color);
   font-family: var(--font-family);
   font-size: var(--regular-font-size);
   line-height: var(--regular-line-height);
@@ -95,7 +95,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--decoration-color);
   pointer-events: none;
 }
 
@@ -137,6 +137,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  visibility: var(--is-light);
 }
 
 .header__rec::after {
